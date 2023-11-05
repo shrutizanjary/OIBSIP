@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 ><i class="fa fa-thermometer">Temperature Converter</h1>
+        <input type="number" id="temperature" placeholder="Enter temperature" step="0.01">
+    
+        <select id="fromUnit">
+            <option value="celsius" placeholder="From">Celsius</option>
+            <option value="fahrenheit" placeholder="From">Fahrenheit</option>
+        </select>
+        <select id="toUnit">
+            <option value="celsius"placeholder="To">Celsius</option>
+            <option value="fahrenheit" placeholder="To">Fahrenheit</option>
+        </select>
+        <button onclick="convertTemperature()">Convert  <i class="fa fa-thermometer"></i></button>
+        <div id="result"></div>
+    </div>
+
+
+    <script src="style.js"></script>
+</body>
+</html>
